@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# API Keys and Secrets - VIGTIG!
+**/application.properties
+src/main/resources/application.properties
+.env
+.env.local
+.env.*.local
