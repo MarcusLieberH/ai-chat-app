@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat - KEA Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>🤖 AI Chat Kun til Jokes</h1>
+        <p>Skriv hvad som helst, og du får en joke!</p>
+    </header>
+
+    <div class="chat-container">
+        <div id="chat" class="chat-messages">
+            <div class="message assistant">
+                <div class="bubble">
+                    🤖 I can help you with:
+                    🎭 Jokes - Just ask 'tell me a joke
+                    🌤️ Weather - Ask 'what's the weather in [city]
+                    More features coming soon! 🚀
+                </div>
+            </div>
+        </div>
+
+        <form id="chat-form" class="chat-input-form">
+                <textarea
+                        name="prompt"
+                        placeholder="Skriv din besked her..."
+                        rows="3"
+                        required
+                ></textarea>
+            <button type="submit">Send 📤</button>
+        </form>
+    </div>
+</div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
